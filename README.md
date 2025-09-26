@@ -14,8 +14,8 @@ flatpak install -y flathub io.github.rinigus.PureMaps io.github.rinigus.OSMScout
 ## Démarrage
 
 ```bash
-chmod +x kiosk_setup.sh
-./kiosk_setup.sh
+chmod +x setup.sh
+./setup.sh
 ```
 
 ## Fonctionnalités
@@ -23,7 +23,6 @@ chmod +x kiosk_setup.sh
 - Carte hors ligne avec PureMaps
 - Géolocalisation par ombre solaire
 - Interface kiosque
-- Clavier virtuel
 
 ## Structure
 
@@ -40,7 +39,6 @@ chmod +x kiosk_setup.sh
 
 ## Utilisation
 
-1. Lancer le système avec `./kiosk_setup.sh`
+1. Lancer le système avec `./setup.sh`
 2. Naviguer sur la carte avec souris/tactile
 3. Utiliser le tutoriel pour la géolocalisation solaire
-4. `Ctrl+Alt+Escape` pour sortir
